@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "l1-model",
+        "type": "model",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:4c8df6"
+      },
+      {
+        "id": "l1-ctx",
+        "type": "context-length",
+        "color": "hex:e6e6e6",
+        "backgroundColor": "hex:5b6470"
+      },
+      {
+        "id": "l1-branch",
+        "type": "git-branch",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:9b7df0"
+      },
+      {
+        "id": "l1-changes",
+        "type": "git-changes",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:e8a24a"
+      },
+      {
+        "id": "l1-total",
+        "type": "tokens-total",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:56b6e8"
+      },
+      {
+        "id": "l1-cost",
+        "type": "session-cost",
+        "color": "hex:e6e6e6",
+        "backgroundColor": "hex:5b6470"
+      }
+    ],
+    [
+      {
+        "id": "l2-session",
+        "type": "session-usage",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:4c8df6",
+        "metadata": {
+          "display": "slider"
+        }
+      },
+      {
+        "id": "l2-weekly",
+        "type": "weekly-usage",
+        "color": "hex:e6e6e6",
+        "backgroundColor": "hex:5b6470",
+        "metadata": {
+          "display": "slider"
+        }
+      },
+      {
+        "id": "l2-reset",
+        "type": "reset-timer",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:9b7df0"
+      },
+      {
+        "id": "l2-weekly-reset",
+        "type": "weekly-reset-timer",
+        "color": "hex:11111b",
+        "backgroundColor": "hex:e8a24a"
+      }
+    ],
+    []
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 3,
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "gitCacheTtlSeconds": 5,
+  "minimalistMode": false,
+  "powerline": {
+    "enabled": true,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [
+      ""
+    ],
+    "autoAlign": false,
+    "continueThemeAcrossLines": false,
+    "theme": "tokyonight"
+  }
+}
