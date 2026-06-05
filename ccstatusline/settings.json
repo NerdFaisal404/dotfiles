@@ -4,7 +4,8 @@
     [
       {
         "id": "l1-model",
-        "type": "model"
+        "type": "model",
+        "rawValue": true
       },
       {
         "id": "l1-branch",
@@ -17,7 +18,8 @@
       },
       {
         "id": "l1-cost",
-        "type": "session-cost"
+        "type": "session-cost",
+        "rawValue": true
       }
     ],
     [],
