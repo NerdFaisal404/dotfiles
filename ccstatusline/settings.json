@@ -6,6 +6,7 @@
       { "id": "l1-branch", "type": "git-branch" },
       { "id": "l1-changes", "type": "git-changes" },
       { "id": "l1-ctx", "type": "context-percentage", "rawValue": true },
+      { "id": "l1-total", "type": "tokens-total" },
       { "id": "l1-cost", "type": "session-cost", "rawValue": true }
     ],
     [
